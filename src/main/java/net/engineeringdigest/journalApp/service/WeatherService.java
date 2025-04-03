@@ -10,7 +10,6 @@ import org.springframework.web.client.RestTemplate;
 
 import net.engineeringdigest.journalApp.api.response.WeatherResponse;
 import net.engineeringdigest.journalApp.cache.AppCache;
-import net.engineeringdigest.journalApp.cache.AppCache.keys;
 import net.engineeringdigest.journalApp.constants.Placeholders;
 
 @Service

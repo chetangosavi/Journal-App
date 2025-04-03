@@ -10,12 +10,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.mongodb.lang.NonNull;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Document("USER")
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class User {
 	
 	@Id
@@ -29,6 +31,8 @@ public class User {
 	@Indexed(unique = true)
 	@NonNull
 	private String userName;
+	private String email;
+	private boolean sentimentalAnalysis;
 	@NonNull
 	private String password;
 	

@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import lombok.extern.slf4j.Slf4j;
-import net.engineeringdigest.journalApp.api.response.WeatherResponse;
 import net.engineeringdigest.journalApp.entity.User;
 import net.engineeringdigest.journalApp.repositry.UserRepository;
 import net.engineeringdigest.journalApp.service.UserService;
